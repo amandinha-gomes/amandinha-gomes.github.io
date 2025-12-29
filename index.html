@@ -1,0 +1,99 @@
+    <!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amanda Gomes | Portfólio de Dados</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <h1>Amanda Gomes</h1>
+        <p class="subtitle">Transformando dados públicos em decisões</p>
+        <nav>
+            <a href="index.html">Projetos</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="contato.html">Contato</a>
+            <button id="theme-toggle">🌙</button>
+        </nav>
+    </header>
+
+    <div class="filters skills">
+        <span class="filter active" data-filter="all">Todos</span>
+        <span class="filter" data-filter="python">Python</span>
+        <span class="filter" data-filter="sql">SQL</span>
+        <span class="filter" data-filter="estatistica">Estatística</span>
+        <span class="filter" data-filter="dados-publicos">Dados Públicos</span>
+    </div>
+
+    <!-- PROJETOS -->
+    <section class="section">
+        <h2>Projetos em Destaque</h2>
+
+        <div class="projects-grid">
+
+            <div class="card show" data-tags="python estatistica">
+                <img src="img/movielens.png">
+                <h3>Sistema de Recomendação de Filmes</h3>
+                <p>Sistema de recomendação usando MovieLens com filtragem colaborativa.</p>
+                <span>Python • Recomendação • Estatística • Machine Learning Básico</span>
+                <div class="links">
+                <a href="#">GitHub</a>
+                </div>
+            </div>
+
+            <div class="card show" data-tags="python sql estatistica">
+                <img src="img/evolucao_taxa_conversao.png">
+                <h3>Teste A/B em E-commerce</h3>
+                <p>Validação estatística de um sistema de recomendação.</p>
+                <span>Python • SQL • Estatística • Teste A/B</span>
+                <div class="links">
+                    <a href="https://github.com/amandinha-gomes/ab-test-recomendacao-ecommerce">GitHub</a>
+                </div>
+            </div>
+
+            <div class="card show" data-tags="python sql dados-publicos">
+                <img src="img/top_5_senadores.png">
+                <h3>Análise de Gastos da CEAPS</h3>
+                <p>Análise exploratória dos gastos do Senado Federal em 2022.</p>
+                <span>Python • SQL • Análise Exploratória • Dados Públicos</span>
+                <div class="links">
+                    <a href="https://github.com/amandinha-gomes/analise_gastos_da_ceaps">GitHub</a>
+                </div>
+            </div>
+
+            <div class="card show" data-tags="python estatistica">
+                <img src="img/forecast.png">
+                <h3>Forecasting de Gastos Públicos</h3>
+                <p>Análise temporal e previsão dos gastos da CEAPS.</p>
+                <span>Python • Séries Temporais • Forecasting • Estatística</span>
+                <div class="links">
+                    <a href="https://github.com/amandinha-gomes/analise_forecasting_ceaps">GitHub</a>
+                </div>
+            </div>
+
+            <div class="card show" data-tags="python estatistica dados-publicos">
+                <img src="img/obitos_causas.png">
+                <h3>Padrões de Mortalidade no Brasil</h3>
+                <p>Artigo científico com dados do DATASUS.</p>
+                <span>Python • Estatística • Dados Públicos • Artigo Científico</span>
+                <div class="links">
+                    <a href="https://github.com/amandinha-gomes/padroes_de_mortalidadee">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>© 2026 • Desenvolvido por Amanda Gomes</p>
+    </footer>
+
+    <!-- JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>
