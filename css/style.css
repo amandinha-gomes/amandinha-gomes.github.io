@@ -841,6 +841,7 @@ CARDS DE PROJETOS
         align-items: center;
         position: relative;
         text-align: center;
+        margin-left: 65px;
     }
 
     .section {
@@ -863,8 +864,6 @@ CARDS DE PROJETOS
         width: 100px;
     }
 }
-
-
 
 
 
